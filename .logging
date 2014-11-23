@@ -1,0 +1,2 @@
+# use fab to run a command in multiple servers
+alias logging="fab -P --linewise -H host1,host2,host3 -- tail -f /var/log/httpd/error_log"
